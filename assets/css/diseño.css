@@ -2,4 +2,8 @@
 
 #encabezado{background-color: rgb(104, 233, 233);color: rgb(16, 97, 70); text-align: center; font-family: sans-serif;}
 
-#descripcion    {background-color: aquamarine;}
+#descripcion    {background-color: aquamarine;color: blueviolet;font-family: sans-serif;}
+
+#proyectos  {background-color: pink; color: rgb(57, 14, 98);font-family: sans-serif;}
+
+#contacto   {background-color: pink; color: blueviolet;font-family: sans-serif;}
