@@ -30,25 +30,13 @@
     <div class="card-body" id="encabezado">
 
       <h1>
-
         HOLA! Soy Doris
-
-
-
-
       </h1>
 
       <h4>Junior Front-End Developer en proceso...</h4>
-
       <br>
 
     </div>
-
-
-
-
-
-
     <div class="container" id="descripcion">
 
       <div class="row">
@@ -58,60 +46,65 @@
             <a class="nav-link active" aria-current="page" href="#descripcion">Sobre mi</a>
             <a class="nav-link" href="#proyectos">Proyectos</a>
             <a class="nav-link" href="#contacto">Contacto</a>
-            
           </nav>
         </div>
         <div class="col-4 justify-content-start">
-
-
-
-          <h4>Sobre de mi</h4>
-          <p>Técnico en laboratorio de profesión atraída por el mundo del desarrollo web, estudiante del bootcamp de
-            Front-End.</p>
-
+          <h4>Sobre mi</h4>
+          <p><i>Técnico en laboratorio de profesión atraída por el mundo del desarrollo web, estudiante del bootcamp de
+              Front-End.</i></p>
           <br>
           <h4>Habilidades</h4>
-          <ul>
-            <li>Comunicación efectiva</li>
-            <li>Trabajo en equipo</li>
-            <li>Resolucion de problemas</li>
+          <ul><i>
+              <li>JS - BOOTSTRAP - GIT</li>
+              <li>Comunicación efectiva</li>
+              <li>Trabajo en equipo</li>
+              <li>Resolucion de problemas</li>
+            </i>
           </ul>
         </div>
         <div class="col-4 justify-content-end" id="imagen">
-
-
-
           <img src="./assets/img/WhatsApp Image 2024-08-02 at 18.34.39.jpeg" class="img-thumbnail rounded-circle"
-            alt="..." width="50%">
-
-
+            alt="..." width="200rem">
         </div>
-
-
-
-
       </div>
-
-
-
     </div>
     <div class="container" id="proyectos">
       <h3 class="row justify-content-center"> Proyectos Realizados</h3>
-      <ul class="row justify-content-center">
-        <li class="col-4"><a href="https://github.com/dars119/bootstrap-" target="_blank"
-            class="card-link">Boostrap-I</a></li>
-        <li class="col-4"><a href="https://github.com/dars119/bootstrap-I" target="_blank"
-            class="card-link">Boostrap-II</a></li>
-        <li class="col-4"><a href="https://github.com/dars119/javascript-I" target="_blank"
-            class="card-link">Javascript</a></li>
-
-      </ul>
-
+      <br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card" id="pro1">
+            <img src="./assets/img/bootstrap i.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"><a href="https://github.com/dars119/bootstrap-" target="_blank"
+                  class="card-link">Boostrap-I</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" id="pro2">
+            <img src="./assets/img/bootstrapii.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"><a href="https://github.com/dars119/bootstrap-I" target="_blank"
+                  class="card-link">Boostrap-II</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" id="pro3">
+            <img src="./assets/img/javascript1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"><a href="https://github.com/dars119/javascript-I" target="_blank"
+                  class="card-link">Javascript</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="container" id="contacto">
       <h3>CONTACTAME</h3>
-
+      <br>
       <div class="row justify-content-center">
         <div class="col-sm-4">
           <div class="card" id="tarjeta">
@@ -132,11 +125,15 @@
         <div class="col-sm-4">
           <h4>Mis redes</h4>
 
-          <i class="fa-brands fa-github"></i>
+          <a href="https://github.com/dars119" target="_blank" class="card-link"><i class="fa-brands fa-github"></i></a>
           <hr>
-          <i class="fa-brands fa-linkedin"></i>
+
+          <a href="https://www.linkedin.com/in/doris-ramirez-sura-a8a6042b6" target="_blank" class="card-link"><i
+              class="fa-brands fa-linkedin"></i></a>
           <hr>
-          <i class="fa-brands fa-instagram"></i>
+
+          <a href="https://www.instagram.com/dori_wii/" target="_blank" class="card-link"><i
+              class="fa-brands fa-instagram"></i></a>
 
         </div>
       </div>
@@ -147,7 +144,8 @@
           <h3>O dejame tus datos y te contactaré a la brevedad</h3>
           <div class="col-md-6">
             <label for="inputName" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="inputName" placeholder="Violeta Parra" required>
+            <input type="text" class="form-control" id="inputName" placeholder="Violeta Parra"
+              pattern="^[a-zA-Z ]{2,}$" required>
           </div>
           <div class="col-md-6">
             <label for="inputNumber" class="form-label">Telefono</label>
@@ -166,6 +164,9 @@
           </div>
         </form>
       </div>
+      <footer>
+        Todos los derechos reservados
+      </footer>
 
 
 
@@ -184,6 +185,8 @@
 
 
 
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
       <script src="./assets/js/portaf.js"></script>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

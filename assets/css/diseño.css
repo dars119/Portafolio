@@ -1,14 +1,49 @@
-#completo{ background-color: rgb(179, 127, 228);}
+#completo {
+    background-color: rgb(179, 127, 228);
+}
 
-#encabezado{background-color: rgb(104, 233, 233);color: rgb(16, 97, 70); text-align: center; font-family: sans-serif;}
+#encabezado {
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    color: rgb(16, 97, 70);
+    text-align: center;
+    font-family: sans-serif;
+}
 
-#descripcion    {background-color: aquamarine;color: blueviolet;font-family: sans-serif;}
+#descripcion {
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+   
+    color: rgb(85, 28, 139);
+    font-family: sans-serif;
+}
 
-#proyectos  {background-color: pink; color: rgb(57, 14, 98);font-family: sans-serif;font-size: 20px;padding-top: 4rem;}
+#proyectos {
+    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+    color: rgb(57, 14, 98);
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 4rem;
+   
+}
 
-#contacto   {background-color: pink; color: blueviolet;font-family: sans-serif;text-align: center;padding-top: 4rem;padding-bottom: 4rem;}
+#contacto {
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    color: blueviolet;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
 
-#tarjeta    {color: blueviolet;}
+#pro1,#pro2,#pro3   { background-color:plum ;}
 
-#formulario     {padding: 4rem;}
+#tarjeta {
+    color: blueviolet;
+}
 
+#formulario {
+    padding: 4rem;
+}
+
+#imagen {
+    padding: 3rem;
+}
