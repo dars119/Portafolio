@@ -11,18 +11,18 @@
 
 #descripcion {
     background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
-   
+
     color: rgb(85, 28, 139);
     font-family: sans-serif;
 }
 
 #proyectos {
-    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
     color: rgb(57, 14, 98);
     font-family: sans-serif;
     font-size: 20px;
     padding-top: 4rem;
-   
+
 }
 
 #contacto {
@@ -34,7 +34,11 @@
     padding-bottom: 4rem;
 }
 
-#pro1,#pro2,#pro3   { background-color:plum ;}
+#pro1,
+#pro2,
+#pro3 {
+    background-color: plum;
+}
 
 #tarjeta {
     color: blueviolet;
